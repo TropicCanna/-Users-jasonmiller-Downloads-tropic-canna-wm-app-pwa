@@ -44,7 +44,7 @@ export default function Home() {
 
   const listingUrl = process.env.NEXT_PUBLIC_LISTING_URL || process.env.LISTING_URL || "https://weedmaps.com/dispensaries/big-chief-collective-2-1";
   const brandName = process.env.NEXT_PUBLIC_BRAND_NAME || process.env.BRAND_NAME || "Tropic Canna - Lawton";
-  const primary = getComputedStyle(document.documentElement).getPropertyValue("--primary-color") || "#FF6DAE";
+  
 
   return (
     <main style={{ maxWidth: 1120, margin: "0 auto", padding: 24 }}>
